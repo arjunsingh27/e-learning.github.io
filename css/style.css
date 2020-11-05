@@ -66,9 +66,6 @@ color: white;
 .background{
     background: rgba(0, 0, 0, 7);
     background-image: url("https://e-learning.github.io/img/bg1.jpg");
-     
-     
-   
     background-size:cover;
     background-blend-mode: lighten;
 }
