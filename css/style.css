@@ -65,7 +65,7 @@ color: white;
  }
 .background{
     background: rgba(0, 0, 0, 7);
-    background-image: url("/../img/bg4.jpg");
+    background-image: url("https://source.unsplash.com/5000x3000/?technology,computer,keyboard");
     /* https://source.unsplash.com/5000x3000/?technology,computer,keyboard */
    
     background-size:cover;
