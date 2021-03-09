@@ -8,7 +8,7 @@
     }
     .navbar{
         flex-direction: column;
-        transition: all 1s ease-out;
+        transition: all 0.1s linear;
         height: 450px;
     }
     .rightnav{
