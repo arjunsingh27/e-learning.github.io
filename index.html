@@ -19,10 +19,16 @@
             <li><a href="html/services.html">Services</a></li>
             <li><a href="html/contact.html" >Contact</a></li>
         </ul>
-        <div class="rightnav v-class-resp">
-            <input type="text" name="search" id="search">
-            <a href="index.html"><button class="btn btn-sm">Search</button></a>
-        </div>
+        <!--Google Custom Search Element → -->
+        <div class="rightnav v-class-resp" id="cse">
+          <input placeholder="search" type="text" name="search" id="cse">
+          <!-- <a href=""><button class="btn btn-sm">Search</button></a> -->
+      </div>
+<script src=”http://www.google.com/jsapi” type=”text/javascript”></script>
+<script type=”text/javascript”>google.load(‘search’, ‘1’);
+          google.setOnLoadCallback(function(){var cse = new google.search.
+          CustomSearchControl();cse.draw(‘cse’);}, true);</script>
+       
         <div class="burger">
           <div class="line"></div>
           <div class="line"></div>
